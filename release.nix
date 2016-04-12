@@ -2,6 +2,7 @@
   build = pkgs.runCommand "build" {} ''
     mkdir -p $out/build-support
     sleep 20
-    exit 0
+    exit 1
+
   '';
 }
